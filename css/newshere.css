@@ -1,0 +1,17 @@
+*,
+* ::after,
+* ::before {
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Yaldevi', sans-serif;
+}
+:root::{
+--cor-de-fundo:#A5ABBD;
+--fonte: 'yaldevi', sans-serif;
+}
+body{
+    font-family:var(--fonte);
+    color:var(--cor-de-fundo);
+}
